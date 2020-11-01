@@ -9,12 +9,11 @@ export default class Elementos extends React.Component {
 		info: ''
 	}
 
-	hoverOn = (id, title, info)  => {
+	hoverOn = (title, info)  => {
 		this.setState({
 			title: title,
 			info: info
 		})
-		console.log(this.state.id)
 	}
 
 	hoverOut = () => {
@@ -31,7 +30,7 @@ export default class Elementos extends React.Component {
 				return (
 					<div key={index}>
 					<i className={e.icon}
-					onMouseEnter={this.hoverOn.bind(this, e.id, e.title, e.info)}
+					onMouseEnter={this.hoverOn.bind(this, e.title, e.info)}
 					onMouseLeave={this.hoverOut}>
 					</i>
 					</div>
