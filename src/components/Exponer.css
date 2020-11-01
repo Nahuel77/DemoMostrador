@@ -1,0 +1,21 @@
+.mostrador{
+	color: #fff;
+	height: 400px;
+	width: 400px;
+	background-color: #0c0c0c;
+	border-radius: 50%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.titulo{
+	margin-top: 80px;
+	flex: 1;
+}
+
+.info{
+	flex: 3;
+	margin-left: 50px;
+	margin-right: 50px;
+}

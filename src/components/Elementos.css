@@ -1,0 +1,42 @@
+.items{
+	display: flex;
+	flex-direction: row;
+}
+
+i{
+	text-decoration: none;
+	list-style-type: none;
+	padding: 20px;
+	margin: 10px;
+	background: #0c0c0c;
+	color: #fff;
+	border-radius: 50%;
+	cursor: pointer;
+	font-size: 30px;
+}
+
+i:hover {
+	background: #69c;
+}
+
+.mostrador{
+	color: #fff;
+	height: 400px;
+	width: 400px;
+	background-color: #0c0c0c;
+	border-radius: 50%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.titulo{
+	margin-top: 80px;
+	flex: 1;
+}
+
+.info{
+	flex: 3;
+	margin-left: 50px;
+	margin-right: 50px;
+}

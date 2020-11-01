@@ -1,0 +1,14 @@
+[
+	{
+		"title" : "Pintura y reparaciones",
+		"icon" : "fas fa-paint-brush",
+		"info" : "Contamos con tecnicos y pintores calificados para brindar soluciones a todo tipo de instalaciones",
+		"id" : 1
+	},
+	{
+		"title" : "Ideas Innovadoras",
+		"icon" : "fas fa-lightbulb",
+		"info" : "Somos un equipo creativo y buscamos siempre estar a la vanguardia del mercado",
+		"id" : 2
+	}
+]
